@@ -91,7 +91,8 @@ body {
 .nameimg {
     width: 100%;
     display: block;
-    margin: 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 .coverimg {
@@ -157,13 +158,7 @@ body {
     .maincontent {
         width:95%;
     }
-
-    .nameimg {
-        margin-left:inherit;
-        margin-right:inherit;
-        float:left;
-    }
-
+    
     .contact {
         float:right;
         text-align: center;
