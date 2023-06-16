@@ -12,6 +12,7 @@
 
 </style>
 <body>
+    <script src="slideshow.js" type="text/javascript"></script>
     <!-- !PAGE CONTENT! -->
     <div class="maincontent">
         <!-- Top bar on large screens -->
@@ -27,12 +28,102 @@
         <br/>
         <div class="grey shadow" style="overflow: auto">
             <div class="gamedisp" id="game-astral">
-                <img src="images/cover.png" class="coverimg">
-                <p>
+                <!-- <img src="images/cover.png" class="coverimg"> -->
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/yW6QoArOhsA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <p style="padding-top: 25px; padding-bottom: 25px;">
                     Astral Horizon is a first-person space opera adventure featuring combat with six degrees of freedom.
                     Give orders to your squadmates and find creative ways to approach combat in zero-gravity.
                     Explore epic sci-fi locations as you fight a war to uncover a perspective-shattering discovery.
                 </p>
+
+                <!-- Slideshow container -->
+                <div class="slideshow-container">
+
+                    <!-- Full-width images with number and caption text -->
+                    <div class="mySlides fade">
+                        <a href="./images/Screenshot1.png">
+                            <div class="w3-card w3-white">
+                                <img src="./images/Screenshot1.png" style="width:100%">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="mySlides fade">
+                        <a href="./images/Screenshot2.png">
+                            <div class="w3-card w3-white">
+                                <img src="./images/Screenshot2.png" style="width:100%">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="mySlides fade">
+                        <a href="./images/Screenshot3.png">
+                            <div class="w3-card w3-white">
+                                <img src="./images/Screenshot3.png" style="width:100%">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="mySlides fade">
+                        <a href="./images/Screenshot5.png">
+                            <div class="w3-card w3-white">
+                                <img src="./images/Screenshot5.png" style="width:100%">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="mySlides fade">
+                        <a href="./images/Screenshot9.png">
+                            <div class="w3-card w3-white">
+                                <img src="./images/Screenshot9.png" style="width:100%">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="mySlides fade">
+                        <a href="./images/Screenshot7.png">
+                            <div class="w3-card w3-white">
+                                <img src="./images/Screenshot7.png" style="width:100%">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="mySlides fade">
+                        <a href="./images/Screenshot8.png">
+                            <div class="w3-card w3-white">
+                                <img src="./images/Screenshot8.png" style="width:100%">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="mySlides fade">
+                        <a href="./images/Screenshot4.png">
+                            <div class="w3-card w3-white">
+                                <img src="./images/Screenshot4.png" style="width:100%">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="mySlides fade">
+                        <a href="./images/Screenshot6.png">
+                            <div class="w3-card w3-white">
+                                <img src="./images/Screenshot6.png" style="width:100%">
+                            </div>
+                        </a>
+                    </div>
+                
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br>
+                
+                <!-- The dots/circles -->
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                    <span class="dot" onclick="currentSlide(6)"></span>
+                    <span class="dot" onclick="currentSlide(7)"></span>
+                    <span class="dot" onclick="currentSlide(8)"></span>
+                    <span class="dot" onclick="currentSlide(9)"></span>
+                </div>
                 <p>
                     In the distant future, humanity has broken the cosmological speed limit and colonized solar systems
                     many lightyears from Earth. At the very edge of human civilization, an ex-pirate, a navy pilot,
@@ -50,7 +141,7 @@
                     </ul>
                    I stream development of Astral Horizon most Saturdays on 
                     <a href="https://www.twitch.tv/infohazardgames">Twitch</a> and save the streams on
-                    <a href="https://www.youtube.com/playlist?list=PLpnNr8QNHD91LSFE6bsJl6s3GuIZugCRP">Youtube</a>.
+                    <a href="https://www.youtube.com/playlist?list=PLpnNr8QNHD91LSFE6bsJl6s3GuIZugCRP">YouTube</a>.
                     You can also follow what I'm working on and chat on <a href="https://discord.gg/V2jTnpS8zZ">Discord</a>.
                 </p>
                 <hr>
